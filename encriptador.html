@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+    <body>
+        <header>
+            <a href="https://www.aluracursos.com/?gclid=CjwKCAjw9suYBhBIEiwA7iMhNIuWHB3nhvb94jkBW1-nYDzO9SBQvCDW0WNs8E9XgUOSZKw12hC_KxoCBrIQAvD_BwE"><img class="logo" src="Vector.png" alt="Logo de Alura"></a>
+            <h1>Encriptador de Texto</h1>
+        </header>
+        <main>
+            <section class="cajaEncriptar">
+                <textarea  class="text-input" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="aviso">
+                    <img src="SignoE.png">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="botones">
+                    <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section class="cajaEncriptada">
+                <textarea class="mensaje" name="" id="" cols="30" rows="10"></textarea>
+                <button class="boton" onclick="copiar()" >Copiar </button>
+            </section>
+        </main>
+        <footer>
+            <a href="https://www.linkedin.com/in/leandro-ravera-b12509223/"><img src="Linkedin.png" alt="Logo de Linkedin" class="linkedin"></a>
+            <a href="https://github.com/LeaR96"><img src="Github.png" alt="Logo de Github" class="github"></a>
+        </footer>
+
+        <script src="EncriptadorJS.js"></script>
+
+    </body>
+</html>
